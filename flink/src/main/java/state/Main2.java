@@ -40,5 +40,6 @@ public class Main2 {
 
         tuple2DataStreamSource.flatMap(new OperatorStateCustom(100L, 3)).printToErr();
         env.execute("Operator State");
+
     }
 }
