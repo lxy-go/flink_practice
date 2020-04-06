@@ -2,14 +2,12 @@
 ### Example user template template
 ### Example user template
 
-# IntelliJ project files
+# IntelliJ project files git rm -r --cache .
 .idea
 *.iml
 out
 gen
 flink/target
-README.md
-flink/src/main/resources/
 flink/src/test/
 flink/target/classes/
 flink/target/flink-1.0-SNAPSHOT.jar
